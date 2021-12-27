@@ -29,14 +29,14 @@ export const App: React.FC = observer(() => {
               <TextareaTitle>Без лишних дублей</TextareaTitle>
               <CopyButton text={store.withOneDouble} />
             </TextareaHeader>
-            <Textarea defaultValue={store.withOneDouble} />
+            <Textarea value={store.withOneDouble} />
           </TextareaBlock>
           <TextareaBlock>
             <TextareaHeader>
               <TextareaTitle>Вообще без дублей</TextareaTitle>
               <CopyButton text={store.withNoDoubles} />
             </TextareaHeader>
-            <Textarea defaultValue={store.withNoDoubles} />
+            <Textarea value={store.withNoDoubles} />
           </TextareaBlock>
         </OutputBlock>
       </Container>
