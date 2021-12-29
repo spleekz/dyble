@@ -26,14 +26,14 @@ export const App: React.FC = observer(() => {
         <OutputBlock>
           <TextareaBlock>
             <TextareaHeader>
-              <TextareaTitle>Без лишних дублей</TextareaTitle>
+              <TextareaTitle>Без лишних дублей АА+АА=АА</TextareaTitle>
               <CopyButton text={store.withOneDouble} />
             </TextareaHeader>
             <Textarea value={store.withOneDouble} />
           </TextareaBlock>
           <TextareaBlock>
             <TextareaHeader>
-              <TextareaTitle>Вообще без дублей</TextareaTitle>
+              <TextareaTitle>Вообще без дублей АА+АА=0</TextareaTitle>
               <CopyButton text={store.withNoDoubles} />
             </TextareaHeader>
             <Textarea value={store.withNoDoubles} />
@@ -88,7 +88,7 @@ const TextareaHeader = styled.div`
   justify-content: space-between;
 `
 const TextareaTitle = styled.div`
-  font-size: 32px;
+  font-size: 28px;
   font-weight: bold;
   margin: 0 0 7px 0;
 `
